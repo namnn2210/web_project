@@ -1,0 +1,4 @@
+driver:
+  path: driver/chromedriver.exe
+target_page:
+  url: https://shopee.vn/
