@@ -7,7 +7,7 @@ class Config(object):
         with open('base_config.yaml') as file:
             cfg = yaml.load(file, Loader=yaml.FullLoader)
         driver_path = cfg.get('driver').get('path')
-        self.driver = webdriver.Chrome(driver_path)
+        self.driver = webdriver.Edge(driver_path)
         self.target_page = cfg.get('target_page').get('url')
 
     def get_driver(self):

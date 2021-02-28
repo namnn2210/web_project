@@ -1,4 +1,4 @@
 driver:
-  path: driver/chromedriver.exe
+  path: driver/msedgedriver.exe
 target_page:
-  url: https://shopee.vn/
+  url: https://member.lazada.vn/user/login
